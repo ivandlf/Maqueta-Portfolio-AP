@@ -1,0 +1,31 @@
+.carousel-inner{
+    max-height: 35rem;
+}
+
+#texto-footer{
+    background-color: #000b76;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+}
+
+@media (max-width:768px){
+   .servicio-fila {
+    width: 100% !important;
+    text-align: start ;
+    
+   
+    
+   }
+}
+
+@media (max-width:576px) {
+    #inti {
+        display: none;
+    }
+    .exp{
+        
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
